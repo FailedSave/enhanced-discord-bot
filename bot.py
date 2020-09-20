@@ -1,6 +1,7 @@
 import discord
 import game
 import character
+import json
 
 class MyClient(discord.Client):
     async def on_ready(self):
@@ -17,13 +18,9 @@ class MyClient(discord.Client):
         if message.content.startswith('!char'):
             await character.handle_char(message)
 
-        if message.content == 'ping':
-            image = discord.Embed(url="https://cdn.discordapp.com/attachments/514279423688835087/734630064078979072/Liz_Level2_Pose1_Camera_1.png") 
-            image.set_image(url="https://cdn.discordapp.com/attachments/514279423688835087/734630064078979072/Liz_Level2_Pose1_Camera_1.png")
-            await message.channel.send('pong')
-            await message.channel.send(embed=image)
-
         if message.content == '!quit':
+            if message.author.id != 261495649327906816:
+                return
             await message.channel.send('shutting down')
             await self.close()
 
@@ -37,4 +34,4 @@ with open('.connections.json') as json_data:
     connections = json.load(json_data)
 
 client = MyClient()
-client.run(connections["MAIN"])
+client.run(connections["PROD"])
