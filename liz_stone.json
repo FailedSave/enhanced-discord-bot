@@ -1,0 +1,135 @@
+{
+    "name": "Liz Harper",
+    "nickname:": "Liz",
+    "stages": [
+        [
+            {
+                "description": "You are ready for action! You eagerly brandish your flask of transformative elixir.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736409976138104852/Liz_Level1_Pose1_Camera_1.png"
+            },
+            {
+                "description": "Your new experimental flask is ready to go. Your opponent won't know what hit her.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736410006143893505/Liz_Level1_Pose2_Camera_1.png"
+            },
+            {
+                "description": "You're Liz Harper! This ignornant challenger has no idea what your scientific mind is capable of!",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736410033461395456/Liz_Level1_Pose3_Camera_1.png"
+            },
+            {
+                "description": "You step boldly into the arena, holding your latest creation. Today you'll collect the fool who thought they could challenge Liz Harper!",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736410066596659281/Liz_Level1_Pose4_Camera_1.png"
+            },
+            {
+                "description": "You step forward confidently, brandishing your flask and clipboard of notes. This challenge will be no sweat for a scientist like yourself.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736410096002924584/Liz_Level1_Pose5_Camera_1.png"
+            }
+        ],
+        [
+            {
+                "description": "The attack destroys your clothes, leaving you in just a tank and ripped shorts. Bothersome, but nothing you can't handle.",
+                "url": "https://media.discordapp.net/attachments/514279423688835087/736410508286099526/Liz_Level2_Pose1_Camera_1.png"
+            },
+            {
+                "description": "The attack leaves you in little more than your underwear. At least you can move around easily for now.",
+                "url": "https://media.discordapp.net/attachments/514279423688835087/736410524757000202/Liz_Level2_Pose2_Camera_1.png"
+            },
+            {
+                "description": "The attack destroys most of your clothes, but you're undeterred. You swivel around for a counterattack.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736410528875806802/Liz_Level2_Pose5_Camera_1.png"
+            },
+            {
+                "description": "That villain destroyed your good lab coat! They'll pay for this!",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736410529010286672/Liz_Level2_Pose3_Camera_1.png"
+            },
+            {
+                "description": "Your clothes are ruined! You're unharmed, though, and have plenty of time to plan your next moves.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736410529387642960/Liz_Level2_Pose4_Camera_1.png"
+            }
+        ],
+        [
+            {
+                "description": "Crap! Your feet and calves are changing... turning to stone!",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736411024164651109/Liz_Level3_Pose1a_stone_Camera_1.png"
+            },
+            {
+                "description": "Your feet and calves feel numb, and you glance down in irritation. You're turning to stone!",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736411025892442122/Liz_Level3_Pose2a_stone_Camera_1.png"
+            },
+            {
+                "description": "Oh no! Your body is transforming! Your legs are already half stone!",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736411032989204590/Liz_Level3_Pose3a_stone_Camera_1.png"
+            },
+            {
+                "description": "Your legs tingle, and you look back in alarm. You're turning to stone!",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736411033035341964/Liz_Level3_Pose4a_stone_Camera_1.png"
+            }
+        ],
+        [
+            {
+                "description": "Your body is almost transformed! You hold up your hands to defend yourself while you desperately try to think of something.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736444428444500038/Liz_Level4_Pose1a_stone_Camera_1.png"
+            },
+            {
+                "description": "Oof! You feel the transformation overtaking you. If you don't come up with a way to win soon, you'll be a stone statue!",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736444445045817454/Liz_Level4_Pose2a_stone_Camera_1.png"
+            },
+            {
+                "description": "Your body is almost turned to stone, but you're not finished yet. You prepare your flask for a final ferocious attack.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736444469267922965/Liz_Level4_Pose4a_stone_Camera_1.png"
+            },
+            {
+                "description": "The transformation is almost done, but there's fight left in you. You prepare to finish off your opponent before you become stone.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736444469057945616/Liz_Level4_Pose5a_stone_Camera_1.png"
+            },
+            {
+                "description": "Oh no! You're almost completely turned to stone!",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736444469121122324/Liz_Level4_Pose3a_stone_Camera_1.png"
+            }
+        ],
+        [
+            {
+                "description": "It's over. You are now just a stone statue.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736446605883998338/Liz_Level5_Pose2a_stone_Camera_1.png"
+            },
+            {
+                "description": "You lost! You are a helpless statue, still wearing your old clothes.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736446759676674118/Liz_Level5_Pose4a_stone_Camera_1.png"
+            },
+            {
+                "description": "Your best just wasn't good enough, and as a result, you've been transformed into a decorative stone statue.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736601324828885063/Liz_Level5_Pose1a_stone_Camera_1.png"
+            },
+            {
+                "description": "Damn! You struggle, but the transformation overwhelms you. You are now a statue.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736452178100748318/Liz_Level5_Pose3a_stone_Camera_1.png"
+            },
+            {
+                "description": "Before you can react, the transformation completes. You are now a helpless, barefoot stone statue.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/736446826303193128/Liz_Level5_Pose5a_stone_Camera_1.png"
+            }
+        ],
+        [
+            {
+                "description": "placeholder1",
+                "url": "placeholder1"
+            },
+            {
+                "description": "placeholder1",
+                "url": "placeholder1"
+            },
+            {
+                "description": "placeholder1",
+                "url": "placeholder1"
+            },
+            {
+                "description": "placeholder1",
+                "url": "placeholder1"
+            },
+            {
+                "description": "placeholder1",
+                "url": "placeholder1"
+            }
+        ]
+    ]
+}
+
