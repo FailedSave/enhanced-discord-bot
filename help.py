@@ -15,4 +15,4 @@ For support or suggestions, contact **FailedSave**.
 Github: https://github.com/FailedSave/enhanced-discord-bot"""
 
 async def handle_help (client, message, name, channel, settings):
-    await client.send_message(channel, help_string)    
+    await channel.send(help_string)    
