@@ -7,4 +7,4 @@ async def handle_view_stats (client, message, name, channel):
 **Users:** {setting_storage.get_users_count()}
 **Helpless Users:** {setting_storage.get_helpless_users_count()}
 """
-    await client.send_message(channel, stats_string)    
+    await channel.send(stats_string)    
