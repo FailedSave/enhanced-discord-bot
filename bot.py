@@ -15,6 +15,8 @@ from settings import Settings
 class MyClient(discord.Client):
     async def on_ready(self):
         print('Logged on as', self.user)
+        setting_storage.load_settings()
+        stats_storage.load_stats()
 
     async def on_message(self, message):
         # don't respond to ourselves
