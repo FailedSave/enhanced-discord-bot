@@ -25,6 +25,9 @@ class MyClient(discord.Client):
 
         if message.content.startswith('!join'):
             await game.join_game(message)
+        
+        if message.content.startswith('!leave'):
+            await game.leave_game(message)
 
         if message.content.startswith('!char'):
             await character.handle_char(message)

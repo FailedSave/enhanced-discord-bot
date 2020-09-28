@@ -143,6 +143,15 @@ async def join_game(message: discord.Message):
     player_to_game[player] = active_games[name]
     await active_games[name].add_player(player)
 
+async def leave_game(message: discord.Message):
+    player = message.author
+    if player not in player_to_game:
+        await message.channel.send(f"{name_to_use(player)} is not in a game.")
+        return
+
+    await message.channel.send(f"Ending your game.")
+    player_to_game[player].end_game()
+
 async def add_player_to_game(message: discord.Message, player: discord.Member, game):
     if game not in active_games:
         raise f"Game {game} unexpectedly not found" 

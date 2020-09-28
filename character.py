@@ -11,8 +11,8 @@ player_to_preferred_character = {}
 
 characters = []
 characters.append(Character("None", "Invalid Character", []))
-characters.append(Character("Liz Harper", "Liz Harper (Scientist)", ["liz_stone", "liz_plastic"]))
-characters.append(Character("Josephiend Pye", "Josephiend Pye (Magician)", ["josie_stone", "josie_silver", "josie_gold", "josie_plastic"]))
+characters.append(Character("Liz Harper", "Liz Harper, Scientist, by ColorfulTrick", ["liz_stone", "liz_plastic"]))
+characters.append(Character("Josephiend Pye", "Josephiend Pye, Magician, by ColorfulTrick", ["josie_stone", "josie_silver", "josie_gold", "josie_plastic"]))
 
 async def handle_char(message: discord.Message):
     words = message.content.split(None, 1)
