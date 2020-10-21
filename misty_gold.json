@@ -1,0 +1,117 @@
+{
+    "name": "Miss Tina",
+    "nickname:": "Miss Tina",
+    "stages": [
+        [
+            {
+                "description": "You're #1! You prepare to crush your enemy with the power of your expertly trained pocket monsters.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/749828063163842620/Misty_Level1_Pose1_Camera_1.png"
+            },
+            {
+                "description": "You prepare to hurl your capture sphere at your enemy, unleashing a devastating adversary!",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/749828089097486416/Misty_Level1_Pose2_Camera_1.png"
+            },
+            {
+                "description": "It's always a good time when you get to duel. Time to show this wannabe that you're the best!",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/749828118855942264/Misty_Level1_Pose3_Camera_1.png"
+            },
+            {
+                "description": "You wind up a throw with your capture sphere. Your opponent doesn't know what they're in for!",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/749828155828600872/Misty_Level1_Pose4_Camera_1.png"
+            },
+            {
+                "description": "You grin broadly as you wind up a throw, preparing to show off your impressive skills.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/749828185520210000/Misty_Level1_Pose5_Camera_1.png"
+            }
+        ],
+        [
+            {
+                "description": "The attack destroys your ablative crop top. Irritating, but it serves its purpose of buying you time.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/749828730905559090/Misty_Level2_Pose1_Camera_1.png"
+            },
+            {
+                "description": "The attack grazes off your shirt, destroying it but leaving you unharmed. You prepare to counterattack.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/749828845351206922/Misty_Level2_Pose2_Camera_1.png"
+            },
+            {
+                "description": "The attack shreds your shirt, but you're not impressed--it was cheap anyway. You prepare to continue the fight.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/749828936199831563/Misty_Level2_Pose3_Camera_1.png"
+            },
+            {
+                "description": "Your shirt is destroyed by the attack--unimpressive. You wind up for a counterattack.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/749829002793058376/Misty_Level2_Pose4_Camera_1.png"
+            },
+            {
+                "description": "All of your opponent's efforts were only enough to tear off your clothes. You prepare to show off your true power!",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/749829124679270491/Misty_Level2_Pose5_Camera_1.png"
+            }
+        ],
+        [
+            {
+                "description": "The attack destroys your shorts as well! With no protective clothing left, you prepare to battle on in your swimsuit.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/749875241362260008/Misty_Level3_Pose2a_Camera_1.png"
+            },
+            {
+                "description": "How irritating--your shorts are gone too. You're able to keep going in your swimsuit, though.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/749871578325450812/Misty_Level3_Pose3a_Camera_1.png"
+            },
+            {
+                "description": "The attack destroys the last of your ablative clothing. You'd better win quickly if you don't want to end up transformed.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/749871614828478544/Misty_Level3_Pose4a_Camera_1.png"
+            },
+            {
+                "description": "Your shorts are disintegrated too, but you've still got a few tricks left. You prepare a counterattack of your own.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/749871657258319943/Misty_Level3_Pose5a_Camera_1.png"
+            },
+            {
+                "description": "You try to get away, but the attack strikes you anyway, removing the last of your clothes. You're vulnerable now!",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/749829637244452945/Misty_Level3_Pose1a_Camera_1.png"
+            }
+        ],
+        [
+            {
+                "description": "You wind up an throw, but before you can release, an attack strikes, turning the bottom half of your exposed body to gold!",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/750228726612099073/pMisty_Level4_Pose1a_gold.png"
+            },
+            {
+                "description": "A quick attack catches you mid-throw. With no defenses left, it quickly begins turning you to gold!",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/750228763597602977/Misty_Level4_Pose2a_gold.png"
+            },
+            {
+                "description": "You prepare a quick throw, but your opponent is quicker. Before you can let loose, your body is mostly transformed to gold.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/750228801715175455/Misty_Level4_Pose3a_gold.png"
+            },
+            {
+                "description": "As you prepare your capture sphere, a powerful attack strikes home. If you don't win soon, you'll be just a statue!",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/750228848330801192/Misty_Level4_Pose4a_gold.png"
+            },
+            {
+                "description": "You prepare your next move, but a quick attack catches you off guard and leaves you almost entirely transformed to gold. This is your last chance.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/750228900940087309/Misty_Level4_Pose5a_gold.png"
+            }
+        ],
+        [
+            {
+                "description": "You lose! You are now just a solid gold statue, posed holding your capture sphere in your hands.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/750230221738737684/Misty_Level5_Pose1a_gold_Camera_1.png"
+            },
+            {
+                "description": "You try to escape, but the transformation overwhelms you. Your capture sphere drops out of your motionless golden hand.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/750230269205676052/Misty_Level5_Pose2a_gold_Camera_1.png"
+            },
+            {
+                "description": "With all of your defenses worn away, the transformation quickly takes your body. You stand motionless, turned to precious gold.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/750230311375470653/Misty_Level5_Pose3a_gold_Camera_1.png"
+            },
+            {
+                "description": "You yelp in shock as the final attack strikes you, sealing your fate. Your capture sphere drops from your hands as your helpless body swiftly turns to gold.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/750230370037006346/Misty_Level5_Pose4a_gold_Camera_1.png"
+            },
+            {
+                "description": "You prepare to unleash a final attack--but the transformation finishes you off before you can act. You are just a golden statue, helplessly caught midmotion.",
+                "url": "https://cdn.discordapp.com/attachments/514279423688835087/750230410725949550/Misty_Level5_Pose5a_gold_Camera_1.png"
+            }
+        ]
+    ]
+}
+
