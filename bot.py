@@ -79,7 +79,10 @@ class MyClient(discord.Client):
 with open('.connections.json') as json_data:
     connections = json.load(json_data)
 
-client = MyClient()
+intents = discord.Intents.default()
+intents.message_content = True
+
+client = MyClient(intents=intents)
 
 async def autosave_task():
     await client.wait_until_ready()
@@ -88,5 +91,4 @@ async def autosave_task():
         await setting_storage.save_settings()
         await stats_storage.save_stats()
 
-client.loop.create_task(autosave_task())
 client.run(connections["MAIN"])
