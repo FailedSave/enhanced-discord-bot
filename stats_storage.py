@@ -4,6 +4,8 @@ import os
 stats = {}
 
 def increment_fate():
+    if "fates_delivered" not in stats:
+        stats["fates_delivered"] = 0
     stats["fates_delivered"] += 1
 
 async def save_stats():

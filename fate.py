@@ -1,5 +1,5 @@
 from settings import Settings, Type
-from setting_storage import find_settings_from_name
+from setting_storage import find_settings_from_name, settings_from_user_id
 import discord
 import asyncio
 import random
@@ -32,7 +32,8 @@ async def handle_target_fate(client, message, name, channel, settings):
         await channel.send(f"**{target_name}** is not helpless!")
         return
 
-    await channel.send(f'**{target_name}**, **{message.author.name}** has decided that your fate is...')
+    author_settings = settings_from_user_id(message.author)
+    await channel.send(f'**{target_name}**, **{author_settings.name}** has decided that your fate is...')
     await asyncio.sleep(delay)
 
     for string in get_fate_strings(settings):
