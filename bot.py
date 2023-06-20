@@ -18,6 +18,19 @@ class MyClient(discord.Client):
         setting_storage.load_settings()
         stats_storage.load_stats()
 
+    async def setup_hook(self) -> None:
+        # create the background task and run it in the background
+        self.bg_task = self.loop.create_task(self.autosave_task())
+
+    async def autosave_task(self):
+        print('Starting autosave task')
+        await self.wait_until_ready()
+        while not self.is_closed():
+            await asyncio.sleep(120)
+            print ('Autosaving')
+            await setting_storage.save_settings()
+            await stats_storage.save_stats()
+
     async def on_message(self, message):
         # don't respond to ourselves
         if message.author == self.user:
@@ -83,12 +96,5 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 client = MyClient(intents=intents)
-
-async def autosave_task():
-    await client.wait_until_ready()
-    while not client.is_closed():
-        await asyncio.sleep(300)
-        await setting_storage.save_settings()
-        await stats_storage.save_stats()
 
 client.run(connections["MAIN"])
